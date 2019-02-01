@@ -1,0 +1,179 @@
+/* Configuração área de contato */
+body{
+	background-color: #ffff34;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+}
+form{
+	border: black 5px solid;
+	width: 800px;
+	background-color: white;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+form h1{
+	text-align: center;
+	background-color: yellow;
+}
+fieldset{
+	border: 2px black solid;
+}
+legend{
+	color: black;
+	font-weight: bold;
+}
+form p{
+	font-size: 10pt;
+}
+
+textarea{
+	width: 95%;
+}
+
+#boxIdentificacao{
+	background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwievdm14ZjgAhUYE7kGHaEVA1EQjRx6BAgBEAU&url=https%3A%2F%2Fwww.freepik.com%2Ffree-icon%2Fliberty-statue-new-york-eeuu_702387.htm&psig=AOvVaw0u9jUNKoVmjcu0_EtW5321&ust=1549049551637089');
+	background-size: 350px;
+	background-repeat: no-repeat;
+	background-color: #f9f9f9;
+}
+
+/* Configuração do cabeçalho */
+
+header{
+	height: 360px;
+	background-color: #ffff34;
+	margin-bottom: 20px;
+}
+
+.areaCentral{
+	width: 900px;
+	margin: 0 auto;
+}
+
+#logo{
+	margin-top: 0 auto;
+	padding-top: 10px;
+}
+#logo p{
+	color: black;
+	font-size: 30pt;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-family: impact, fantasy;
+}
+
+div a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+/* Configuração Botões */
+
+.btn{
+	font-family: arial;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: 700;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	background-color: black;
+	color: yellow;
+	margin-top: 20px;
+}
+
+/* Configuração do rodapé */
+
+footer{
+	width: 100%;
+	height: 150px;
+	float:left;
+	background-color: lightgray;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+/* Configuração da Área de Vídeos */
+.boxVideo{
+	width: 40%;
+	float: left;
+	margin: 0 5% 0 5%;
+}
+.boxVideo h1{
+	text-align: center;
+}
+.boxVideo video{
+	width: 100%;
+}
+
+#boxMapa{
+	margin-top: 50px;
+	width: 100%;
+	float: middle;
+	margin-bottom: 20px;
+}
+#boxMapa h1{
+	text-align: center;
+}
+
+/* Configuração cardápio */}
+
+#titCardapio{
+	font-family: impact, fantasy;
+	font-size: 36;
+}
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.boxCardapio-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	float: left;
+	margin-left: 0 auto;
+}
+
+.boxCardapio-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+	float: right;
+	margin-right: 0 auto;
+}
+
+div{
+	margin: 5px
+}
+
+.boxCardapio div{
+	display: block;
+}
+
+.boxCardapio ul{
+	list-style-type: none;
+}
+
+div ul li{
+	text-align: center;
+	list-style-type: none;
+}
+
+.preco {
+    font-family: impact, fantasy;
+    font-size: 18pt;
+    font-style: bold;
+    background-color: black;
+    margin: auto;
+    box-sizing: border-box;
+	text-align: center;
+	color: white;
+}

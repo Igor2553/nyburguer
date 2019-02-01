@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>NY Burger</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	</head>
+	<body>
+		<header>
+			<div class="areaCentral">
+				<div id="logo" align="center">
+				<a>
+					<img src="midia/logo.png" width="225px"/>
+					<p>NY Burguer</p>
+				</a>
+				</div>
+				<div align="center" id="botoes">
+						<button class="btn"><a href="Index.html">Cardápio</a></button>
+						<button class="btn"><a href="Contato2.html">Contato</a></button>
+						<button class="btn"><a href="sobre.html">Sobre</a></button>
+				</div>
+			</div>
+		</header>
+		
+		<div class="areaCentral">
+			<form method="post" onsubmit="alert('Pedido enviado com Sucesso!!!')">
+				<fieldset class="espacamentoAbaixo" id="boxIdentificacao">
+					<legend>Identificação do usuário</legend>
+					
+					<p><label><b>Nome:</b><input type="text" placeholder="Nome completo" required 
+					size="30" maxlength="50" name="txtNome" id="idNome"/> </label></p>
+					
+					<p><label><b>Endereço:</b><input type="map" placeholder="Digite seu endereço" 
+					size="80" name="txtEndereço" id="idEndereço" required /> </label></p>
+					
+					<legend>Faça aqui seu pedido</legend>
+					<p><label><b>Seu pedido:</b><br/>
+					<textarea placeholder="Digite seu pedido" name="txtMensagem" rows="5" required ></textarea></label></p>
+
+					<legend>Ações do Formulário</legend>
+					<p>
+						<input type="submit" />
+						<input type="reset" value="Cancelar"/>
+					</p>
+				</fieldset>
+			
+			</form>
+		</div>
+		<footer>
+			<div class="areaCentral" align="center">
+				<audio controls="controls" autoplay="autoplay" loop="loop" id="audioFundo" src="midia/Iron_Fist.mp3">Música de fundo</audio></br></br>	
+				@Site construído na disciplina de CPW do curso TSIaD
+			</div>
+		</footer>
+	</body>
+</html>
